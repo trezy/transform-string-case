@@ -1,4 +1,5 @@
 # transform-string-case
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 [![transform-string-case build status on CircleCI][circleci-badge]][circleci]
 [![transform-string-case dependencies on David DM][daviddm-badge]][daviddm]
@@ -6,7 +7,6 @@
 [![transform-string-case coverage on Coveralls.io][coveralls-badge]][coveralls]
 
 [![Code of Conduct][code-of-conduct-badge]][code-of-conduct]
-[![transform-string-case contributors as listed by the all-contributors spec][contributors-badge]][contributors]
 [![PRs Welcome][prs-badge]][prs]
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
@@ -19,10 +19,20 @@ If you want to contribute, make sure to check out our [contributing guide][contr
 ## Contributors
 
 Check out our [list of contributors][contributors]!
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://trezy.com"><img src="https://avatars2.githubusercontent.com/u/442980?v=4" width="100px;" alt="Trezy"/><br /><sub><b>Trezy</b></sub></a><br /><a href="https://github.com/trezy-studios/transform-string-case/commits?author=trezy" title="Code">💻</a> <a href="https://github.com/trezy-studios/transform-string-case/commits?author=trezy" title="Documentation">📖</a> <a href="#ideas-trezy" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-trezy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-trezy" title="Maintenance">🚧</a> <a href="#tool-trezy" title="Tools">🔧</a> <a href="https://github.com/trezy-studios/transform-string-case/commits?author=trezy" title="Tests">⚠️</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 [contributing]: CONTRIBUTING.md
-[contributors]: CONTRIBUTORS.md
-[contributors-badge]: https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square
 [code-of-conduct]: CODE_OF_CONDUCT.md
 [code-of-conduct-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [codeclimate]: https://codeclimate.com/github/trezy-studios/transform-string-case

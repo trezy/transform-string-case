@@ -1,0 +1,30 @@
+{
+  "projectName": "transform-string-case",
+  "projectOwner": "trezy-studios",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "trezy",
+      "name": "Trezy",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/442980?v=4",
+      "profile": "http://trezy.com",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "infra",
+        "maintenance",
+        "tool",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
