@@ -8,8 +8,8 @@
   "scripts": {
     "build": "rollup -c",
     "build-coverage": "rollup dist/index.js --file coverage/index.js --format umd",
-    "coverage": "yarn build-coverage && yarn instrument-coverage && yarn generate-coverage",
-    "generate-coverage": "mocha coverage --recursive --reporter mocha-lcov-reporter | coveralls",
+    "coverage": "yarn build-coverage && yarn instrument-coverage && yarn generate-coverage | coveralls",
+    "generate-coverage": "mocha coverage --recursive --reporter mocha-lcov-reporter",
     "instrument-coverage": "jscoverage dist coverage",
     "semantic-release": "semantic-release",
     "test": "mocha --recursive --require @babel/register"
