@@ -1,9 +1,18 @@
-# transform-string-case
+<div align="center">
+  <h1>transform-string-case</h1>
 
-[![transform-string-case build status on CircleCI][circleci-badge]][circleci]
-[![transform-string-case dependencies on David DM][daviddm-badge]][daviddm]
-[![transform-string-case maintainability on Code Climate][codeclimate-badge]][codeclimate]
-[![transform-string-case coverage on Coveralls.io][coveralls-badge]][coveralls]
+  <p>Transform strings between snake, camel, and upper camel case.</p>
+
+  <hr />
+</div>
+
+[![Build status][circleci-badge]][circleci]
+[![Code Coverage][coveralls-badge]][coveralls]
+[![Dependencies][daviddm-badge]][daviddm]
+[![Maintainability][codeclimate-badge]][codeclimate]
+[![BSD-3-Clause License][license-badge]][license]
+[![Version][version-badge]][package]
+<!-- [![Downloads][downloads-badge]][npmtrends] -->
 
 [![Code of Conduct][code-of-conduct-badge]][code-of-conduct]
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
@@ -32,6 +41,8 @@ Check out our [list of contributors][contributors]!
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+[circleci]: https://circleci.com/gh/trezy-studios/workflows/transform-string-case
+[circleci-badge]: https://img.shields.io/circleci/build/gh/trezy-studios/transform-string-case/master.svg?style=flat-square
 [contributing]: CONTRIBUTING.md
 [code-of-conduct]: CODE_OF_CONDUCT.md
 [code-of-conduct-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
@@ -41,11 +52,15 @@ Check out our [list of contributors][contributors]!
 [coveralls-badge]: https://img.shields.io/coveralls/trezy-studios/transform-string-case.svg?style=flat-square
 [daviddm]: https://david-dm.org/trezy-studios/transform-string-case
 [daviddm-badge]: https://img.shields.io/david/dev/trezy-studios/transform-string-case.svg?style=flat-square
+[downloads-badge]: https://img.shields.io/npm/dm/transform-string-case.svg?style=flat-square
 [github-watch]: https://github.com/trezy-studios/transform-string-case/watchers
 [github-watch-badge]: https://img.shields.io/github/watchers/trezy-studios/transform-string-case.svg?style=social
 [github-star]: https://github.com/trezy-studios/transform-string-case/stargazers
 [github-star-badge]: https://img.shields.io/github/stars/trezy-studios/transform-string-case.svg?style=social
+[license]: LICENSE
+[license-badge]: https://img.shields.io/npm/l/transform-string-case.svg?style=flat-square
+[npmtrends]: https://www.npmtrends.com/transform-string-case
+[package]: https://npmjs.com/package/transform-string-case
 [prs]: CONTRIBUTING.md
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[circleci]: https://circleci.com/gh/trezy-studios/workflows/transform-string-case
-[circleci-badge]: https://img.shields.io/circleci/build/gh/trezy-studios/transform-string-case/master.svg?style=flat-square
+[version-badge]: https://img.shields.io/npm/v/transform-string-case.svg?style=flat-square
