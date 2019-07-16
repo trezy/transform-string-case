@@ -28,7 +28,6 @@ If you want to contribute, make sure to check out our [contributing guide][contr
 
 ## Contributors
 
-Check out our [list of contributors][contributors]!
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
