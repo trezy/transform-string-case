@@ -171,6 +171,7 @@ workflows:
             - install-dependencies
       - coverage:
           requires:
+            - build
             - install-dependencies
       - build:
           requires:
