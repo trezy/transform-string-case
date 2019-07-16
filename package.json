@@ -3,7 +3,7 @@
   "description": "Transform strings between snake, camel, and upper camel case.",
   "version": "0.0.0-development",
   "author": "Trezy <tre@trezy.com> (https://trezy.com)",
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "main": "./dist/index.js",
   "scripts": {
     "build": "rollup -c",
