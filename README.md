@@ -20,6 +20,7 @@
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
 [![Star on GitHub][github-star-badge]][github-star]
+[![Tweet][twitter-badge]][twitter]
 
 ## Contributing
 
@@ -63,4 +64,6 @@ Check out our [list of contributors][contributors]!
 [package]: https://npmjs.com/package/transform-string-case
 [prs]: CONTRIBUTING.md
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20transform-string-case%20by%20%40TrezyCodes%20https%3A%2F%2Fgithub.com%2Ftrezy-studios%2Ftransform-string-case%20%F0%9F%91%8D
+[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/trezy-studios/transform-string-case.svg?style=social
 [version-badge]: https://img.shields.io/npm/v/transform-string-case.svg?style=flat-square
