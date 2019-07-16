@@ -1,3 +1,4 @@
+import { eslint } from 'rollup-plugin-eslint'
 import { sizeSnapshot } from 'rollup-plugin-size-snapshot'
 import { terser } from 'rollup-plugin-terser'
 import babel from 'rollup-plugin-babel'
@@ -21,6 +22,7 @@ export default [
     plugins: [
       progress(),
       resolve(),
+      eslint(),
       babel({ exclude: 'node_modules/**' }),
       sizeSnapshot(),
       visualizer(),
