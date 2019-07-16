@@ -1,4 +1,5 @@
 .DS_Store
+.size-snapshot.json
 stats.html
 dist/
 node_modules/
