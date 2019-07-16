@@ -7,6 +7,8 @@ import progress from 'rollup-plugin-progress'
 import resolve from 'rollup-plugin-node-resolve'
 import visualizer from 'rollup-plugin-visualizer'
 
+import { name } from './package.json'
+
 
 
 
@@ -17,7 +19,7 @@ export default [
     output: {
       file: 'dist/index.js',
       format: 'umd',
-      name: 'transform-string-case',
+      name,
     },
     plugins: [
       progress(),
@@ -34,7 +36,7 @@ export default [
     output: {
       file: 'dist/index.min.js',
       format: 'umd',
-      name: 'transform-string-case',
+      name,
     },
     plugins: [
       progress(),
