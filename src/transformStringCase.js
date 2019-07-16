@@ -6,15 +6,18 @@ import { lowercaseFirstCharacter } from './lowercaseFirstCharacter'
 
 
 const toCamel = (string, index, match, capture) => {
-  return lowercaseFirstCharacter(string.replace(match, capture.toUpperCase()))
+  const modifiedString = string.replace(match, capture.toUpperCase())
+  return lowercaseFirstCharacter(modifiedString)
 }
 
 const toSnake = (string, index, match, capture) => {
-  return lowercaseFirstCharacter(string.replace(match, `_${capture.toLowerCase()}`))
+  const modifiedString = string.replace(match, `_${capture.toLowerCase()}`)
+  return lowercaseFirstCharacter(modifiedString)
 }
 
 const toUpperCamel = (string, index, match, capture) => {
-  return capitalizeFirstCharacter(string.replace(match, capture.toUpperCase()))
+  const modifiedString = string.replace(match, capture.toUpperCase())
+  return capitalizeFirstCharacter(modifiedString)
 }
 
 
