@@ -1,5 +1,4 @@
 # transform-string-case
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 [![transform-string-case build status on CircleCI][circleci-badge]][circleci]
 [![transform-string-case dependencies on David DM][daviddm-badge]][daviddm]
@@ -7,6 +6,7 @@
 [![transform-string-case coverage on Coveralls.io][coveralls-badge]][coveralls]
 
 [![Code of Conduct][code-of-conduct-badge]][code-of-conduct]
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![PRs Welcome][prs-badge]][prs]
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
