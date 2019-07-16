@@ -2,5 +2,6 @@
 .size-snapshot.json
 stats.html
 yarn-error.log
+coverage/
 dist/
 node_modules/
