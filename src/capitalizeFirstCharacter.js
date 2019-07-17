@@ -1,8 +1,10 @@
-const capitalizeFirstCharacter = string => {
-  const stringAsArray = string.split('')
-  stringAsArray.splice(0, 1, stringAsArray[0].toUpperCase())
-  return stringAsArray.join('')
-}
+import { transformFirstCharacter as tfc } from './transformFirstCharacter'
+
+
+
+
+
+const capitalizeFirstCharacter = string => tfc(string, str => str.toUpperCase())
 
 
 

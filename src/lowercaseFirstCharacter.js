@@ -1,8 +1,10 @@
-const lowercaseFirstCharacter = string => {
-  const stringAsArray = string.split('')
-  stringAsArray.splice(0, 1, stringAsArray[0].toLowerCase())
-  return stringAsArray.join('')
-}
+import { transformFirstCharacter as tfc } from './transformFirstCharacter'
+
+
+
+
+
+const lowercaseFirstCharacter = string => tfc(string, str => str.toLowerCase())
 
 
 
