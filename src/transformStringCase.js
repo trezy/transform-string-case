@@ -43,11 +43,7 @@ const transformStringCase = (string, from, to) => {
   }
 
   if (['camel', 'upperCamel'].includes(from) && ['camel', 'upperCamel'].includes(to)) {
-    if (from === 'camel') {
-      return capitalizeFirstCharacter(string)
-    }
-
-    return lowercaseFirstCharacter(string)
+    return (from === 'camel') ? capitalizeFirstCharacter(string) : lowercaseFirstCharacter(string)
   }
 
   let result = ''
