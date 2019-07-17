@@ -20,6 +20,12 @@ const toUpperCamel = (string, index, match, capture) => {
   return capitalizeFirstCharacter(modifiedString)
 }
 
+const transformers = {
+  camel: toCamel,
+  upperCamel: toUpperCamel,
+  snake: toSnake,
+}
+
 
 
 
@@ -30,11 +36,7 @@ const transformStringCase = (string, from, to) => {
     upperCamel: /(ID|[A-Z])/gu,
     snake: /_(ID|\w)/ui,
   }[from]
-  const transform = {
-    camel: toCamel,
-    upperCamel: toUpperCamel,
-    snake: toSnake,
-  }[to]
+  const transform = transformers[to]
 
   if (!regex.test(string)) {
     return string
