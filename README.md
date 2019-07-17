@@ -35,15 +35,11 @@ To use `transform-string-case`, you need to pass it a string, what case the stri
 ```js
 import { transformStringCase } from 'transform-string-case'
 
-const camelCaseString = 'camelCaseString'
-const snakeCaseString = 'snake_case_string'
-const upperCamelCaseString = 'UpperCamelCaseString'
+transformStringCase('camelCaseString', 'camel', 'snake') // 'camel_case_string'
 
-transformStringCase(camelCaseString, 'camel', 'snake') // 'camel_case_string'
+transformStringCase('snake_case_string', 'snake', 'upperCamel') // 'SnakeCaseString'
 
-transformStringCase(snakeCaseString, 'snake', 'upperCamel') // 'SnakeCaseString'
-
-transformStringCase(upperCamelCaseString, 'upperCamel', 'snake') // 'upper_camel_case_string'
+transformStringCase('UpperCamelCaseString', 'upperCamel', 'snake') // 'upper_camel_case_string'
 ```
 
 ### Exports
@@ -56,11 +52,15 @@ import transformStringCase from 'transform-string-case'
 import {
   capitalizeFirstCharacter,
   lowercaseFirstCharacter,
+  transformFirstCharacter,
   transformStringCase,
 } from 'transform-string-case'
 
 capitalizeFirstCharacter('hello world!') // 'Hello world!'
 lowercaseFirstCharacter('Hello World!') // 'hello World!'
+transformFirstCharacter('Hello World!', (firstCharacter) => {
+  return firstCharacter = '😁'
+}) // '😁ello World!'
 ```
 
 ## Contributing
