@@ -16,7 +16,7 @@ const toSnake = (string, index, match, capture) => {
 }
 
 const toUpperCamel = (string, index, match, capture) => {
-  const modifiedString = string.replace(match, capture.toUpperCase())
+  const modifiedString = toCamel(string, index, match, capture)
   return capitalizeFirstCharacter(modifiedString)
 }
 
