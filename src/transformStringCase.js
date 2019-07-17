@@ -48,18 +48,16 @@ const transformStringCase = (string, from, to) => {
     return lowercaseFirstCharacter(string)
   }
 
-  let adjustedString = string
   let result = ''
 
   /* eslint-disable-next-line no-cond-assign */
-  while ((result = regex.exec(adjustedString)) !== null) {
+  while ((result = regex.exec(string)) !== null) {
     const [match, capture] = result
-    const { index } = result
 
-    adjustedString = transform(adjustedString, index, match, capture)
+    string = transform(string, result.index, match, capture)
   }
 
-  return adjustedString
+  return string
 }
 
 
