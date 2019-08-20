@@ -74,7 +74,7 @@ If you want to contribute, make sure to check out our [contributing guide][contr
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://trezy.com"><img src="https://avatars2.githubusercontent.com/u/442980?v=4" width="100px;" alt="Trezy"/><br /><sub><b>Trezy</b></sub></a><br /><a href="https://github.com/trezy-studios/transform-string-case/commits?author=trezy" title="Code">💻</a> <a href="https://github.com/trezy-studios/transform-string-case/commits?author=trezy" title="Documentation">📖</a> <a href="#ideas-trezy" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-trezy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-trezy" title="Maintenance">🚧</a> <a href="#tool-trezy" title="Tools">🔧</a> <a href="https://github.com/trezy-studios/transform-string-case/commits?author=trezy" title="Tests">⚠️</a></td>
+    <td align="center"><a href="http://trezy.com"><img src="https://avatars2.githubusercontent.com/u/442980?v=4" width="100px;" alt="Trezy"/><br /><sub><b>Trezy</b></sub></a><br /><a href="https://github.com/trezy/transform-string-case/commits?author=trezy" title="Code">💻</a> <a href="https://github.com/trezy/transform-string-case/commits?author=trezy" title="Documentation">📖</a> <a href="#ideas-trezy" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-trezy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-trezy" title="Maintenance">🚧</a> <a href="#tool-trezy" title="Tools">🔧</a> <a href="https://github.com/trezy/transform-string-case/commits?author=trezy" title="Tests">⚠️</a></td>
   </tr>
 </table>
 
@@ -82,29 +82,29 @@ If you want to contribute, make sure to check out our [contributing guide][contr
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-[circleci]: https://circleci.com/gh/trezy-studios/workflows/transform-string-case
-[circleci-badge]: https://img.shields.io/circleci/build/gh/trezy-studios/transform-string-case/master.svg?style=flat-square
+[circleci]: https://circleci.com/gh/trezy/workflows/transform-string-case
+[circleci-badge]: https://img.shields.io/circleci/build/gh/trezy/transform-string-case/master.svg?style=flat-square
 [code-of-conduct]: CODE_OF_CONDUCT.md
 [code-of-conduct-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[codeclimate]: https://codeclimate.com/github/trezy-studios/transform-string-case
-[codeclimate-badge]: https://img.shields.io/codeclimate/maintainability/trezy-studios/transform-string-case.svg?style=flat-square
+[codeclimate]: https://codeclimate.com/github/trezy/transform-string-case
+[codeclimate-badge]: https://img.shields.io/codeclimate/maintainability/trezy/transform-string-case.svg?style=flat-square
 [contributing]: CONTRIBUTING.md
-[convert-object-keys]: https://github.com/trezy-studios/convert-object-keys
-[coveralls]: https://coveralls.io/github/trezy-studios/transform-string-case
-[coveralls-badge]: https://img.shields.io/coveralls/trezy-studios/transform-string-case.svg?style=flat-square
-[daviddm]: https://david-dm.org/trezy-studios/transform-string-case
-[daviddm-badge]: https://img.shields.io/david/dev/trezy-studios/transform-string-case.svg?style=flat-square
+[convert-object-keys]: https://github.com/trezy/convert-object-keys
+[coveralls]: https://coveralls.io/github/trezy/transform-string-case
+[coveralls-badge]: https://img.shields.io/coveralls/trezy/transform-string-case.svg?style=flat-square
+[daviddm]: https://david-dm.org/trezy/transform-string-case
+[daviddm-badge]: https://img.shields.io/david/dev/trezy/transform-string-case.svg?style=flat-square
 [downloads-badge]: https://img.shields.io/npm/dm/transform-string-case.svg?style=flat-square
-[github-watch]: https://github.com/trezy-studios/transform-string-case/watchers
-[github-watch-badge]: https://img.shields.io/github/watchers/trezy-studios/transform-string-case.svg?style=social
-[github-star]: https://github.com/trezy-studios/transform-string-case/stargazers
-[github-star-badge]: https://img.shields.io/github/stars/trezy-studios/transform-string-case.svg?style=social
+[github-watch]: https://github.com/trezy/transform-string-case/watchers
+[github-watch-badge]: https://img.shields.io/github/watchers/trezy/transform-string-case.svg?style=social
+[github-star]: https://github.com/trezy/transform-string-case/stargazers
+[github-star-badge]: https://img.shields.io/github/stars/trezy/transform-string-case.svg?style=social
 [license]: LICENSE
 [license-badge]: https://img.shields.io/npm/l/transform-string-case.svg?style=flat-square
 [npmtrends]: https://www.npmtrends.com/transform-string-case
 [package]: https://npmjs.com/package/transform-string-case
 [prs]: CONTRIBUTING.md
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20transform-string-case%20by%20%40TrezyCodes%20https%3A%2F%2Fgithub.com%2Ftrezy-studios%2Ftransform-string-case%20%F0%9F%91%8D
-[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/trezy-studios/transform-string-case.svg?style=social
+[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20transform-string-case%20by%20%40TrezyCodes%20https%3A%2F%2Fgithub.com%2Ftrezy%2Ftransform-string-case%20%F0%9F%91%8D
+[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/trezy/transform-string-case.svg?style=social
 [version-badge]: https://img.shields.io/npm/v/transform-string-case.svg?style=flat-square
