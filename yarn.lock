@@ -6839,9 +6839,9 @@ rollup-plugin-terser@^5.1.1:
     terser "^4.1.0"
 
 rollup-plugin-visualizer@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-visualizer/-/rollup-plugin-visualizer-2.5.0.tgz#cc475deaebbe6cd9f242473739d283a4e5076bfb"
-  integrity sha512-JUnhhL+LidPluCp5mq5PV9vfVCATe9mT+LOO4MH1hX/lf96LOXTdGStDJ7xtsflyOkHMNRpyHZ+C7UZYTbsoIA==
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-visualizer/-/rollup-plugin-visualizer-2.5.4.tgz#195945e1d5329067a18d2973066ef23b24a30acc"
+  integrity sha512-ehMX8Us4UmHmt9y6uvBdtW3ASAQDqCcmp07Qrm8dBqQMf1eAd89Rc/owGZr0cDp764dvLKQRA03W+nWlRajl4w==
   dependencies:
     mkdirp "^0.5.1"
     open "^6.3.0"
