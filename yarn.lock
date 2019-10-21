@@ -1103,9 +1103,9 @@ ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.5.5:
     uri-js "^4.2.2"
 
 all-contributors-cli@^6.8.0:
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/all-contributors-cli/-/all-contributors-cli-6.8.0.tgz#1b98e9ee60ca3724ef50fb7469b8e85de1ebdec9"
-  integrity sha512-7xYAmljxgGL4w0XTRBuGTJMqf/xTGhvPyRbIp2InKfn0INo08faCT6gP18iyYMpVPotgAUcaGTeLrewh2IP54Q==
+  version "6.9.3"
+  resolved "https://registry.yarnpkg.com/all-contributors-cli/-/all-contributors-cli-6.9.3.tgz#84995eac024402107f15e836364a9d5bf39b0d46"
+  integrity sha512-iSJrwddd2gEI08qUW2Q3UR22zgaAAbnur5MrrB3+nHmw1uTwzdy+/dzPZe2xNCEwozBHm2fF/67h3i03sPqAsw==
   dependencies:
     "@babel/runtime" "^7.2.0"
     async "^3.0.1"
@@ -1116,7 +1116,7 @@ all-contributors-cli@^6.8.0:
     lodash "^4.11.2"
     pify "^4.0.1"
     request "^2.72.0"
-    yargs "^13.1.0"
+    yargs "^14.0.0"
 
 amdefine@>=0.0.4:
   version "1.0.1"
@@ -8165,6 +8165,14 @@ yargs-parser@^13.0.0, yargs-parser@^13.1.1:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
+yargs-parser@^15.0.0:
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-15.0.0.tgz#cdd7a97490ec836195f59f3f4dbe5ea9e8f75f08"
+  integrity sha512-xLTUnCMc4JhxrPEPUYD5IBR1mWCK/aT6+RJ/K29JY2y1vD+FhtgKK0AXRWvI262q3QSffAQuTouFIKUuHX89wQ==
+  dependencies:
+    camelcase "^5.0.0"
+    decamelize "^1.2.0"
+
 yargs-parser@^9.0.2:
   version "9.0.2"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-9.0.2.tgz#9ccf6a43460fe4ed40a9bb68f48d43b8a68cc077"
@@ -8249,6 +8257,23 @@ yargs@^13.1.0:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^13.1.1"
+
+yargs@^14.0.0:
+  version "14.2.0"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-14.2.0.tgz#f116a9242c4ed8668790b40759b4906c276e76c3"
+  integrity sha512-/is78VKbKs70bVZH7w4YaZea6xcJWOAwkhbR0CFuZBmYtfTYF0xjGJF43AYd8g2Uii1yJwmS5GR2vBmrc32sbg==
+  dependencies:
+    cliui "^5.0.0"
+    decamelize "^1.2.0"
+    find-up "^3.0.0"
+    get-caller-file "^2.0.1"
+    require-directory "^2.1.1"
+    require-main-filename "^2.0.0"
+    set-blocking "^2.0.0"
+    string-width "^3.0.0"
+    which-module "^2.0.0"
+    y18n "^4.0.0"
+    yargs-parser "^15.0.0"
 
 yargs@~3.5.4:
   version "3.5.4"
