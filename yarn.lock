@@ -678,9 +678,9 @@
     to-fast-properties "^2.0.0"
 
 "@fuelrats/eslint-config@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@fuelrats/eslint-config/-/eslint-config-1.0.1.tgz#61bbfbe746bd933612ef552748b105f4ac398a32"
-  integrity sha512-zErru4pOUBWueNEfMwtg31TqzC94k0S0+8rZQRHaiyZmCGveyVhUPJzcdYEPTUUEjHtNtwyC1RUCOVhmpTxnzw==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@fuelrats/eslint-config/-/eslint-config-1.1.2.tgz#e6a40d6e20f039fcb6de002b498d34f084e021ba"
+  integrity sha512-iAf9oBGW42I8q8ROSNyCg1uZ6dMIVZZzKaDz1jSkgcIFZDT8LzKgpblaKv4m4iQR7Gck0iZI4vlb87RgikwARA==
   dependencies:
     eslint-restricted-globals "^0.2.0"
 
