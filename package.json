@@ -43,7 +43,7 @@
     "@babel/node": "^7.5.0",
     "@babel/preset-env": "^7.5.4",
     "@babel/register": "^7.4.4",
-    "@fuelrats/eslint-config": "^1.0.1",
+    "@fuelrats/eslint-config": "^2.0.0",
     "all-contributors-cli": "^6.8.0",
     "babel-eslint": "^10.0.2",
     "chai": "^4.2.0",

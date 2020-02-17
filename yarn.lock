@@ -677,10 +677,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@fuelrats/eslint-config@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@fuelrats/eslint-config/-/eslint-config-1.0.1.tgz#61bbfbe746bd933612ef552748b105f4ac398a32"
-  integrity sha512-zErru4pOUBWueNEfMwtg31TqzC94k0S0+8rZQRHaiyZmCGveyVhUPJzcdYEPTUUEjHtNtwyC1RUCOVhmpTxnzw==
+"@fuelrats/eslint-config@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@fuelrats/eslint-config/-/eslint-config-2.0.0.tgz#600aadb19a833bb6fe061f992883cb271db5b348"
+  integrity sha512-1FlR3KKSdpJJzxz0hrNwtQqDOcmLhUc5DArTTQThaz0wGnF//RKnHWYFnt2ftazyq50W1XDDotxfMBfvodlxZg==
   dependencies:
     eslint-restricted-globals "^0.2.0"
 
