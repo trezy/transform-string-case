@@ -14,6 +14,8 @@ jobs:
   commitlint:
     docker:
       - image: williamlauze/circleci-commitlint:latest
+    environment:
+      CIRCLE_COMPARE_URL: << pipeline.project.git_url >>/compare/<< pipeline.git.base_revision >>..<<pipeline.git.revision>>
     working_directory: ~/app
 
     steps:
